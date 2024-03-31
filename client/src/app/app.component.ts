@@ -10,9 +10,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-http=inject(HttpClient)
+
 
   constructor(){
-    this.http.get()
+   
   }
 }
